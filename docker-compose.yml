@@ -1,0 +1,39 @@
+version: '3'
+services:
+  backend:
+    build:
+      context: ./backend
+      dockerfile: .Dockerfile
+    image: weatherapp_backend
+    ports:
+      - "9000:9000"
+    volumes:
+      - ./backend:/usr/src/app
+    env_file:
+      - ./.env  
+    networks:
+      - default
+    environment:
+      - DOCKER_ENV=true
+
+  frontend:
+    build:
+      context: ./frontend
+      dockerfile: .Dockerfile
+    image:  weatherapp_frontend
+    ports:
+      - "8000:8000"
+    volumes:
+      - ./frontend/:/usr/src/app
+    networks:
+      - default
+
+  mock-server:
+    build:
+      context: ./mock-server
+      dockerfile: .Dockerfile
+    image:  weatherapp_mock
+    ports:
+      - "3001:3001"
+    networks:
+      - default

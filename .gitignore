@@ -1,0 +1,47 @@
+# OSX
+.DS_Store
+
+# Node.js
+node_modules
+npm-debug.log
+.npmrc
+
+# Logs
+*.log
+
+# IDE/Editor
+.vscode/
+.idea/
+.project
+
+# Build Artifacts
+dist/
+build/
+coverage/
+
+# IDE/Editor Workspace Settings
+.vscode/settings.json
+
+# Dependency Management
+yarn.lock
+
+# Temporary and Cache Files
+.cache/
+
+/node_modules
+
+# Backend
+/backend/node_modules
+
+# Frontend
+/frontend/node_modules
+
+# Mock Server
+/mock-server/node_modules
+
+# Environment Variables
+.env
+
+# Editor/IDE specific files
+*.swp
+*.swo
