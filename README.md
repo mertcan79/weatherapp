@@ -42,8 +42,8 @@ Before you begin, ensure you have the following:
 3. Create a .env file in the backend directory and add your OpenWeatherMap API Key:
      ```
     APPID=YOUR_API_KEY
-    USE_MOCK_SERVER=true
-    DOCKER_ENV=true
+    USE_MOCK_SERVER=false
+    DOCKER_ENV=fal
      ```
 ## Running Without Docker
 If you prefer to run the WeatherApp locally without Docker, follow these steps:
