@@ -80,7 +80,7 @@ If you prefer to run the WeatherApp locally without Docker, follow these steps:
      ```sh
      npm install
      ```
-   - Start the backend server:
+   - Start the mock server:
      ```sh
      npm start
      ```
