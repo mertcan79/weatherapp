@@ -18,7 +18,7 @@ WeatherApp is a simple application that provides weather forecasts based on the 
 
 Before you begin, ensure you have the following:
 
-- Node.js (v12 or higher)
+- Node.js (v14)
 - Docker (for deployment and local development)
 - OpenWeatherMap API Key (sign up at https://openweathermap.org/)
 
@@ -76,30 +76,34 @@ If you prefer to run the WeatherApp locally without Docker, follow these steps:
 3. Access the WeatherApp:
    - Open your web browser and navigate to `http://localhost:8000` to access the frontend.
    - You can now use the WeatherApp to get weather forecasts.
-## Running the Application with Docker
-Start the application using Docker Compose:
-
-     
-     docker-compose up --build
-     
-
-This command will build and start the backend, frontend, and mock server containers.
-Access the WeatherApp frontend in your browser at `http://localhost:8000´.   
-
 ## Testing
-
 Automated tests ensure the application's correctness. To run tests:
-
 Navigate to the `backend` directory and run tests:
 1. For mocha
      ```sh
-     cd backend
+     cd backend/tests
      npm test
      ```
 2. For Robot
+Start the mock-server for testing purposes.
      ```sh
+     cd mock-server
+     npm install
+     npm start
+     ```   
+     ```sh
+     cd tests
      robot .
      ```
+## Running the Application with Docker
+Start the application using Docker Compose:
+     
+     docker-compose up --build
+     
+This command will build and start the backend, frontend, and mock server containers.
+Access the WeatherApp frontend in your browser at `http://localhost:8000´.   
+
+
 ## Configuration
 The WeatherApp configuration is managed through environment variables:
 
