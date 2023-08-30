@@ -43,7 +43,7 @@ Before you begin, ensure you have the following:
      ```
     APPID=YOUR_API_KEY
     USE_MOCK_SERVER=false
-    DOCKER_ENV=fal
+    DOCKER_ENV=false
      ```
 ## Running Without Docker
 If you prefer to run the WeatherApp locally without Docker, follow these steps:
