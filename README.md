@@ -19,7 +19,7 @@ Before you begin, ensure you have the following:
 - Node.js (v14)
 - Docker (for deployment and local development)
 - OpenWeatherMap API Key (sign up at https://openweathermap.org/)
-- After getting the API key, you can insert it via terminal with ´´´echo "APPID={<KEY>}" > .env´´´
+- After getting the API key, you can insert it via terminal with ```echo "APPID={<KEY>}" > .env```
 
 ## Getting Started
 
@@ -85,7 +85,7 @@ If you prefer to run the WeatherApp locally without Docker, follow these steps:
      ```sh
      npm start
      ```
-3. Access the WeatherApp:
+4. Access the WeatherApp:
    - Open your web browser and navigate to `http://localhost:8000` to access the frontend.
    - You can now use the WeatherApp to get weather forecasts.
 ## Testing
