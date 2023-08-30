@@ -36,7 +36,7 @@ Before you begin, ensure you have the following:
     cd ../frontend && npm install
     cd ../mock-server && npm install
      ```
-3. Create .env file via
+3. Create .env file on the root directory via
     ```
     echo "APPID=<YOUR API KEY>" > .env
     echo "USE_MOCK_SERVER=false" >> .env
