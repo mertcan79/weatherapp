@@ -75,7 +75,7 @@ If you prefer to run the WeatherApp locally without Docker, follow these steps:
    - Open your web browser and navigate to `http://localhost:8000` to access the frontend.
    - You can now use the WeatherApp to get weather forecasts.
 ## Testing
-Automated tests ensure the application's correctness. To run tests:
+Automated tests ensure the application's correctness. Tests work with local and Dockerized versions. To run tests:
 Navigate to the `backend` directory and run tests:
 1. For mocha
      ```sh
@@ -107,7 +107,7 @@ The WeatherApp configuration is managed through environment variables:
 
 1. APPID: Your OpenWeatherMap API Key.
 2. USE_MOCK_SERVER: Set to true to use the mock server for weather data.
-3. DOCKER_ENV: Set to true if running in a Docker environment. (Automatically done by docker compose)
+3. DOCKER_ENV: Set to true if running in a Docker environment. (Automatically done by docker-compose.yml)
 
 
 ## Configuration
