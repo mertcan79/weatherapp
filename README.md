@@ -11,8 +11,6 @@ WeatherApp is a simple application that provides weather forecasts based on the 
 - [Testing](#testing)
 - [Configuration](#configuration)
 - [Deployment](#deployment)
-- [Contributing](#contributing)
-- [License](#license)
 
 ## Requirements
 
@@ -111,3 +109,6 @@ The WeatherApp configuration is managed through environment variables:
 2. USE_MOCK_SERVER: Set to true to use the mock server for weather data.
 3. DOCKER_ENV: Set to true if running in a Docker environment. (Automatically done by docker compose)
 
+
+## Configuration
+The app should be running on AWS Elastic Beanstalk.
