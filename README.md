@@ -19,7 +19,7 @@ Before you begin, ensure you have the following:
 - Node.js (v14)
 - Docker (for deployment and local development)
 - OpenWeatherMap API Key (sign up at https://openweathermap.org/)
-- After getting the API key, you can insert it via terminal with ´echo "APPID={<KEY>}" > .env´
+- After getting the API key, you can insert it via terminal with ´´´echo "APPID={<KEY>}" > .env´´´
 
 ## Getting Started
 
