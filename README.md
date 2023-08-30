@@ -27,7 +27,7 @@ Before you begin, ensure you have the following:
 
 1. Clone the repository to your local machine:
      ```
-     git clone https://github.com/yourusername/weatherapp.git
+     git clone https://github.com/mertcan79/weatherapp.git
      ```
 
 2. Navigate to project directory and install via npm.
