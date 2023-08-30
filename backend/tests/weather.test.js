@@ -41,7 +41,7 @@ describe('Weather API', () => {
           done();
         }
       });
-  });
+  }).timeout(7000);
   // Invalid requests
   it('should handle invalid location', (done) => {
     const latitude = 1000; // Invalid latitude
