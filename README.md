@@ -37,7 +37,7 @@ Before you begin, ensure you have the following:
     cd ../mock-server && npm install
      ```
 
-3. Create a .env file in the backend directory and add your OpenWeatherMap API Key:
+3. Create a .env file in the backend directory and add your OpenWeatherMap API Key and environment variables:
      ```
     APPID=YOUR_API_KEY
     USE_MOCK_SERVER=false
