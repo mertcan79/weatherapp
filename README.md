@@ -19,7 +19,6 @@ Before you begin, ensure you have the following:
 - Node.js (v14)
 - Docker (for deployment and local development)
 - OpenWeatherMap API Key (sign up at https://openweathermap.org/)
-- After getting the API key, you can insert it via terminal with ```echo "APPID={<KEY>}" > .env```
 
 ## Getting Started
 
@@ -37,13 +36,12 @@ Before you begin, ensure you have the following:
     cd ../frontend && npm install
     cd ../mock-server && npm install
      ```
-
-3. Create a .env file in the backend directory and add your OpenWeatherMap API Key and environment variables:
-     ```
-    APPID=YOUR_API_KEY
-    USE_MOCK_SERVER=false
-    DOCKER_ENV=false
-     ```
+3. Create .env file via
+    ```
+    echo "APPID=<YOUR API KEY>" > .env
+    echo "USE_MOCK_SERVER=false" >> .env
+    echo "DOCKER_ENV=false" >> .env
+    ```
 ## Running Without Docker
 If you prefer to run the WeatherApp locally without Docker, follow these steps:
 1. **Backend Setup:**
