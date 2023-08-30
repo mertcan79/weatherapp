@@ -51,10 +51,6 @@ If you prefer to run the WeatherApp locally without Docker, follow these steps:
      ```sh
      cd backend
      ```
-   - Install the required dependencies:
-     ```sh
-     npm install
-     ```
    - Start the backend server:
      ```sh
      npm start
@@ -63,10 +59,6 @@ If you prefer to run the WeatherApp locally without Docker, follow these steps:
    - Navigate to the `frontend` directory:
      ```sh
      cd frontend
-     ```
-   - Install the required dependencies:
-     ```sh
-     npm install
      ```
    - Start the frontend application:
      ```sh
