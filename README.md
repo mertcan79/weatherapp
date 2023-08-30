@@ -71,6 +71,19 @@ If you prefer to run the WeatherApp locally without Docker, follow these steps:
      ```sh
      npm start
      ```
+3. **Mock Server Setup for testing:**
+   - Navigate to the `mock-server` directory:
+     ```sh
+     cd mock-server
+     ```
+   - Install the required dependencies:
+     ```sh
+     npm install
+     ```
+   - Start the backend server:
+     ```sh
+     npm start
+     ```
 3. Access the WeatherApp:
    - Open your web browser and navigate to `http://localhost:8000` to access the frontend.
    - You can now use the WeatherApp to get weather forecasts.
@@ -83,16 +96,11 @@ Navigate to the `backend` directory and run tests:
      npm test
      ```
 2. For Robot
-Start the mock-server for testing purposes.
-     ```sh
-     cd mock-server
-     npm install
-     npm start
-     ```   
      ```sh
      cd tests
      robot .
      ```
+
 ## Running the Application with Docker
 Start the application using Docker Compose:
      
