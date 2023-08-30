@@ -97,7 +97,6 @@ Navigate to the `backend` directory and run tests:
      ```
 2. For Robot
      ```sh
-     cd tests
      robot .
      ```
 
