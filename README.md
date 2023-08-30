@@ -118,5 +118,5 @@ The WeatherApp configuration is managed through environment variables:
 3. DOCKER_ENV: Set to true if running in a Docker environment. (Automatically done by docker-compose.yml)
 
 
-## Configuration
+## Deployment
 The app should be running on AWS Elastic Beanstalk.
