@@ -1,6 +1,6 @@
 # WeatherApp
 
-WeatherApp is a simple application that provides weather forecasts based on the OpenWeatherMap API. This repository contains a backend, a frontend, and a mock server to simulate API responses. The application is dockerized for easy deployment and development.
+WeatherApp is a simple application that provides weather forecasts based on the OpenWeatherMap API. This repository contains a backend, a frontend, and a mock server to simulate API responses. The application is dockerized as well for easy deployment and development.
 
 ## Table of Contents
 
@@ -19,6 +19,7 @@ Before you begin, ensure you have the following:
 - Node.js (v14)
 - Docker (for deployment and local development)
 - OpenWeatherMap API Key (sign up at https://openweathermap.org/)
+- After getting the API key, you can insert it via terminal with ´echo "APPID={<KEY>}" > .env´
 
 ## Getting Started
 
