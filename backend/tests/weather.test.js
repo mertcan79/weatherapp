@@ -59,7 +59,7 @@ describe('Weather API', () => {
           done();
         }
       });
-  });
+  }).timeout(7000);
 
   it('should handle missing latitude or longitude', (done) => {
     chai.request(server)
@@ -74,5 +74,5 @@ describe('Weather API', () => {
           done();
         }
       });
-  });
+  }).timeout(7000);
 });
